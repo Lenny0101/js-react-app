@@ -48,7 +48,9 @@ export const submitPost = (data, caption) => {
             caption
           },
           url: `${API.BASE}${API.POST_CAPTION}`
-        }).then(() => dispatch(submitSuccess()));
+        })
+          .then(() => dispatch(submitSuccess()))
+          .then(() => dispatch(submitError()));
       })
       .catch(() => dispatch(submitError()));
   };
@@ -63,6 +65,6 @@ export const getPosts = () => {
         Authorization: `Bearer ${token}`
       },
       url: `${API.BASE}${API.GET_POSTS}`
-    }).then(res => dispatch(loadPosts({ list: res.data.payload })));
+    }).then(res => dispatch(loadPosts({ list: res.data.payload.reverse() })));
   };
 };

@@ -9,7 +9,7 @@ class Posts extends Component {
   }
 
   render() {
-    if (!this.props.postReducer.list) {
+    if (!this.props.postReducer || !this.props.postReducer.list) {
       return null;
     } else {
       console.log(this.props);
@@ -27,13 +27,6 @@ class Posts extends Component {
               username="Lenny"
             />
           ))}
-
-          <PostCard
-            text="some text"
-            username="Lenny"
-            location="Riga,Latvia"
-            image={image}
-          />
         </div>
       </section>
     );

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing PostCard renders a snapshot 1`] = `
+<div
+  className="userCard"
+>
+  <div
+    className="userImage"
+  >
+    <img
+      alt=""
+    />
+  </div>
+  <div
+    className="userInfo"
+  >
+    <div
+      className="userName"
+    >
+      <p />
+    </div>
+    <div
+      className="userTime"
+    >
+      <p />
+    </div>
+  </div>
+</div>
+`;

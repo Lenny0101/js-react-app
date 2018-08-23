@@ -1,6 +1,7 @@
 import React from "react";
-
 import "./index.css";
+
+export const sum = (a, b) => a + b;
 
 const PostCard = ({ username, location, text, image }) => (
   <div className="postCard">
