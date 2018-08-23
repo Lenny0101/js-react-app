@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+.loginSection {
+  height: 1000px;
+  display: flex;
+  background-color: #fafafa;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  width: 350px;
+  height: 360px;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e6e6e6;
+}
+input {
+  -webkit-appearance: none;
+  width: 268px;
+  height: 38px;
+  color: #999;
+  font-family: Arial;
+  font-size: 13.3333px;
+  border: 1px solid #efefef;
+}
+input :focus {
+  border: 1px solid #b2b2b2;
+}
+.instLogoWritten h1 {
+  font-family: "Pacifico";
+}
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

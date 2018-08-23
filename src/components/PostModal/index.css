@@ -1,0 +1,11 @@
+.show {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.previewImage img {
+  width: 100%;
+}
+
+.modal-body form {
+  margin-bottom: 10px;
+}

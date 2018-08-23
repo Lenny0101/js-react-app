@@ -1,0 +1,18 @@
+.h2Header {
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #999;
+  text-align: center;
+}
+.loginForm {
+  padding: 20px 40px;
+}
+
+.registerButton {
+  height: 28px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+}
