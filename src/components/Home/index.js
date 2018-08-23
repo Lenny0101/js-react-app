@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../Header";
-import Posts from "../Posts";
+import Posts from "../../containers/Posts";
 import UserList from "../UserList";
 import PostModal from "../../containers/PostModal";
 import Lightbox from "../Lightbox";
